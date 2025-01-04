@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+
+    <title>Project Showcase</title>
+    <style>
+        /* Reset styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family:  'Poppins', sans-serif, 'arial';
+            font-optical-sizing: auto;
+            font-weight: <weight>;
+            font-style: normal;
+            background-color: #000000;
+            color: #ffffff;
+            line-height: 1.6;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(90deg, rgba(0, 255, 231, 0.8939950980392157) 0%, rgba(1, 81, 98, 1) 83%, rgba(2, 3, 38, 1) 100%, rgba(2, 2, 37, 1) 100%, rgba(2, 0, 36, 1) 100%);
+            box-shadow: 0px 20px 40px black;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        /* Main Container */
+        .container {
+            width: 80%;
+            margin: 30px auto;
+
+        }
+
+        .container span {
+            padding: 5px;
+            background: rgb(0, 255, 231);
+            background: linear-gradient(90deg, rgba(0, 255, 231, 0.8939950980392157) 0%, rgba(1, 81, 98, 1) 83%, rgba(2, 3, 38, 1) 100%, rgba(2, 2, 37, 1) 100%, rgba(2, 0, 36, 1) 100%);
+            box-shadow: 0px 20px 40px black;
+            border: 1px solid #3b3b3b;
+            border-radius: 1000px;
+            columns: white;
+            font-weight: 700;
+            font-size: 15px;
+            text-transform: uppercase;
+        }
+        
+
+        /* Project Details Section */
+        .project-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 30px;
+        }
+
+        .project-info img {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-description {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .project-description h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .project-description p {
+            font-size: 1rem;
+            margin-bottom: 20px;
+            color: #dfd6d6;
+        }
+
+        .technologies {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .technologies span {
+            background-color: #3498db;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 1rem;
+        }
+
+        /* Button */
+
+        .btn {
+            display: inline-block;
+            padding: 10px;
+            background-color: rgba(0, 255, 229, 0.76);
+            color: white;
+            font-size: 16px;
+            font-weight: 600;
+            border-radius: 8px;
+            transition: all 0.6s ease-in-out;
+            text-decoration: none;
+            gap: 5px;
+        }
+
+
+        .btn:hover {
+            transform: translateY(-2px);
+            background: transparent;
+            color: white;
+            border: 1px solid rgba(0, 255, 229, 0.76);
+        }
+
+        /* Footer */
+        footer {
+            background: linear-gradient(90deg, rgba(0, 255, 231, 0.8939950980392157) 0%, rgba(1, 81, 98, 1) 83%, rgba(2, 3, 38, 1) 100%, rgba(2, 2, 37, 1) 100%, rgba(2, 0, 36, 1) 100%);
+            box-shadow: 0px 20px 40px black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Project Showcase</h1>
+    </header>
+
+    <!-- Main Project Content -->
+    <div class="container">
+        <div class="project1">
+            <img src="udemy.png" alt="Project Image">
+
+            <div class="project-description">
+                <h2>Project Name:Udemy-clone</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit quasi, labore sunt animi sed error
+                    ad possimus ea tenetur sequi, obcaecati, nostrum enim modi ab eos rem dolore ipsum sit?</p>
+
+                <h3>Technologies Used:</h3>
+                <div class="technologies">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                </div>
+                <br>
+                <a href="https://kavya010emc.github.io/Udemy-Clone/" class="btn">View Project</a>
+            </div>
+        </div>
+        <div class="project2">
+            <img src="tripadvisor.png" alt="Project Image">
+
+            <div class="project-description">
+                <h2>Project Name: Tripadvisor clone</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit quasi, labore sunt animi sed error
+                    ad possimus ea tenetur sequi, obcaecati, nostrum enim modi ab eos rem dolore ipsum sit?</p>
+
+
+                <h3>Technologies Used:</h3>
+                <div class="technologies">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                </div>
+                <br>
+                <a href="https://kavya010emc.github.io/tripadvisorclone/" class="btn">View Project</a>
+            </div>
+        </div>
+        <div class="project3">
+            <img src="header.jpeg" alt="Project Image">
+
+            <div class="project-description">
+                <h2>Project Name: Greendenproject</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit quasi, labore sunt animi sed error
+                    ad possimus ea tenetur sequi, obcaecati, nostrum enim modi ab eos rem dolore ipsum sit?</p>
+
+
+                <h3>Technologies Used:</h3>
+                <div class="technologies">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JS</span>
+                </div>
+                <br>
+                <a href="https://kavya010emc.github.io/Greendenproject/" class="btn">View Project</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 My Portfolio | All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>
